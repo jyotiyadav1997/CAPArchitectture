@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="8" time="0.099" timestamp="2023-03-30T14:23:28.823790" hostname="MMLDVJYOTIY"><testcase classname="test_1" name="test_1" time="0.001" /><testcase classname="test_1" name="test_2" time="0.001" /><testcase classname="test_1" name="test_3" time="0.001"><failure message="AssertionError: Failed&#10;assert 'jenkins' in 'kenkins is server'">def test_3():
+        name = "jenkins"
+        title = "kenkins is server"
+&gt;       assert name in title, "Failed"
+E       AssertionError: Failed
+E       assert 'jenkins' in 'kenkins is server'
+
+test_1.py:15: AssertionError</failure></testcase><testcase classname="test_2" name="test_login" time="0.001" /><testcase classname="test_2" name="test_login1" time="0.000" /><testcase classname="test_2" name="test_login3" time="0.000" /><testcase classname="test_4.MyTestCase" name="test_something" time="0.001"><failure message="AssertionError: True != False">self = &lt;pytestDemo.test_4.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True, False)  # add assertion here
+E       AssertionError: True != False
+
+test_4.py:6: AssertionError</failure></testcase><testcase classname="test_5" name="test" time="0.001" /></testsuite></testsuites>
